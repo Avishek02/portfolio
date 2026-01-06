@@ -20,7 +20,7 @@ const Extra1 = () => {
                               shadow-[0_20px_20px_rgba(132,204,22,0.17)]">
                      <div data-aos="zoom-in"  className="p-8 text-center">
                         <FaProjectDiagram className="mx-auto text-4xl text-lime-400 shake" />
-                        <h3 className="text-4xl font-bold text-white mt-5">10+</h3>
+                        <h3 className="text-4xl font-bold text-white mt-5">12+</h3>
                         <p className="mt-2 text-sm text-gray-300">
                             Design projects completed.
                         </p>
@@ -40,7 +40,7 @@ const Extra1 = () => {
 
                      <div data-aos="zoom-in" className="p-8 text-center">
                         <GiClockwork className="mx-auto text-5xl text-lime-400 bounce-custom" />
-                        <h3 className="text-4xl font-bold text-white mt-2">1.5+</h3>
+                        <h3 className="text-4xl font-bold text-white mt-2">2+</h3>
                         <p className="mt-2 text-sm text-gray-300">
                             Years of experience
                         </p>

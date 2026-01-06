@@ -6,34 +6,34 @@ import { TbLivePhotoFilled } from "react-icons/tb";
 const projects = [
   {
     id: 1,
-    title: "Blood Donation Website",
-    liveLink: 'https://red-care-2025.netlify.app',
-    repoLink: 'https://github.com/GMRedoan/Assignment-11-client.git',
+    title: "AssetVerse – Corporate Asset Management System",
+    liveLink: 'https://assetversee.vercel.app/',
+    repoLink: 'https://github.com/Avishek02/assetverse',
     icon: <FaDroplet className="text-red-500 bounce-custom" />,
     description:
-      "A role based website that can help any user in his critical condition with firebase security and fund payment system.",
+      "𝐀𝐬𝐬𝐞𝐭𝐕𝐞𝐫𝐬𝐞 is a 𝐁𝟐𝐁 𝐇𝐑 and 𝐀𝐬𝐬𝐞𝐭 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 web application that helps organizations manage physical assets and track employee assignments efficiently.",
     image: "https://i.ibb.co.com/1Ym3q09N/Screenshot-2025-12-28-at-5-53-01-PM.png",
     tech: ["React", "Tailwind", "DaisyUI", "Firebase", "Stripe", "MongoDB"],
   },
   {
     id: 2,
-    title: "Car Rental Website",
-    liveLink: 'https://rent-wheels-2025.netlify.app/',
-    repoLink: 'https://github.com/GMRedoan/assignment-10-client.git',
+    title: "PlateShare – Community Food Sharing Platform",
+    liveLink: 'https://platesharee.vercel.app/',
+    repoLink: 'https://github.com/Avishek02/plateshare',
     icon: <IoCarSportSharp className="text-lime-500 animate-pulse" />,
     description:
-      "A Car rental website with Private routes and modern search functionality, UI/UX friendly. Besides, canceling system of rented car",
+      "𝐏𝐥𝐚𝐭𝐞𝐒𝐡𝐚𝐫𝐞 is a full-stack 𝐌𝐄𝐑𝐍 single-page application focused on reducing food waste through community-driven food sharing.",
     image: "https://i.ibb.co.com/VcHckbff/Screenshot-2025-12-28-at-5-59-58-PM.png",
     tech: ["React", "API", "UI", "Node.js", "Cors", "JavaScript", "CSS"],
   },
   {
     id: 3,
-    title: "Apps 4 U",
-    liveLink: 'https://112-assignment-08.netlify.app/apps',
-    repoLink: 'https://github.com/GMRedoan/assignment-08.git',
+    title: "Gamehub – ArcadiaX",
+    liveLink: 'https://arcadiaxx.netlify.app/',
+    repoLink: 'https://github.com/Avishek02/arcadiax',
     icon: <FaAppStore className="text-purple-500 animate-spin" />,
     description:
-      "A website that includes your application, user can install and uninstall it with UI/UX and responsive design.",
+      "An immersive, futuristic Game Library SPA built with React, Firebase, and Tailwind CSS. ArcadiaX lets gamers discover, rate, and support indie developers through a sleek, vibrant, urban-themed interface.",
     image: "https://i.ibb.co.com/wrRpbgdG/Screenshot-2025-12-28-at-6-04-13-PM.png",
     tech: ["React", "Tailwind", "Charts", "Express.js", "HTML5", "React Icon"],
   },
@@ -49,22 +49,23 @@ const MyProjects = () => {
     <section id="project-section" className="py-6 pb-14 relative">
       <div className="max-w-7xl mx-auto px-4 relative">
 
-         <div
+        <div
           className="absolute top-20 inset-0 -z-10 rounded-2xl
             bg-linear-to-br from-emerald-400/30 to-lime-400/30
             blur-[80px]"/>
 
-         <div className="relative">
-           <div
+        <div className="relative">
+          <div
             data-aos="zoom-in-down"
             className="mb-6 text-center text-4xl md:text-5xl font-extrabold pb-10">
             <h2 className="text-white">
-              My{" "}
+              Enterprise{" "}
               <span className="bg-linear-to-r from-emerald-400 to-lime-400 bg-clip-text text-transparent shimmer">
-                Projects
+                Solutions
               </span>
+              <span> I've worked On</span>
             </h2>
-            <div data-aos="zoom-in" className="w-58 h-1 mx-auto mt-3 bg-lime-400 rounded-full" />
+            <div data-aos="zoom-in" className="w-70 md:w-120 h-1 mx-auto mt-3 bg-lime-400 rounded-full" />
           </div>
 
           {/* Cards */}
@@ -90,12 +91,12 @@ const MyProjects = () => {
                       {project.icon}
                       <span className="text-white font-bold">
                         {project.title}
-                       </span>
+                      </span>
                     </h3>
 
-                    <p className="text-sm text-gray-300"> 
+                    <p className="text-sm text-gray-300">
                       {project.description}
-                     </p>
+                    </p>
 
                     <div data-aos="zoom-in" className="flex flex-wrap gap-2 mt-2">
                       {project.tech.map((item, index) => (
@@ -132,10 +133,10 @@ const MyProjects = () => {
                           hover:shadow-[0_0_20px_rgba(34,197,94,0.8)] transition-all ease-out duration-300
                           hover:scale-[1.04] w-full"
                       >
-                        Github 
+                        Github
                         <FaGithub className="text-lime-400 text-lg animate-pulse" />
                       </button>
-                     </div>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -19,7 +19,7 @@ const Extra2 = () => {
                         <h2 className="text-3xl md:text-4xl font-extrabold text-white">
                             {inView && (
                                 <Typewriter
-                                    words={["For explore more awesome works"]}
+                                    words={["To explore more awesome works"]}
                                     loop={1}
                                     cursor
                                     cursorStyle=""
@@ -30,7 +30,7 @@ const Extra2 = () => {
                         </h2>
 
                         <p className="mt-4 text-base md:text-lg text-purple-200">
-                            You can visit my GitHub profile and see more of my work.
+                            visit my GitHub profile and see more of my work.
                         </p>
 
 
@@ -38,7 +38,7 @@ const Extra2 = () => {
                     
                     <div data-aos="zoom-in-up">
                         <a
-                            href="https://github.com/GMRedoan"
+                            href="https://github.com/Avishek02"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="

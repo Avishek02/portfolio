@@ -94,7 +94,7 @@ const Banner = () => {
 
                     <div className="flex gap-3">
                         <a
-                            href="/GM_Redoan_Resume.pdf"
+                            href="/"
                             download
                             className="btn mt-8 px-6 md:px-8 text-white 
                                        bg-linear-to-r from-emerald-600 to-lime-500 
