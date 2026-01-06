@@ -9,33 +9,33 @@ const projects = [
     title: "AssetVerse – Corporate Asset Management System",
     liveLink: 'https://assetversee.vercel.app/',
     repoLink: 'https://github.com/Avishek02/assetverse',
-    icon: <FaDroplet className="text-red-500 bounce-custom" />,
+    icon: "",
     description:
       "𝐀𝐬𝐬𝐞𝐭𝐕𝐞𝐫𝐬𝐞 is a 𝐁𝟐𝐁 𝐇𝐑 and 𝐀𝐬𝐬𝐞𝐭 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 web application that helps organizations manage physical assets and track employee assignments efficiently.",
-    image: "https://i.ibb.co.com/1Ym3q09N/Screenshot-2025-12-28-at-5-53-01-PM.png",
-    tech: ["React", "Tailwind", "DaisyUI", "Firebase", "Stripe", "MongoDB"],
+    image: "https://res.cloudinary.com/dbanni0vy/image/upload/HR_dashboard_cbbbwr.png",
+    tech: ["React", "Tailwind", "DaisyUI", "Firebase", "Stripe", "MongoDB", "Recharts", "Axios"],
   },
   {
     id: 2,
     title: "PlateShare – Community Food Sharing Platform",
     liveLink: 'https://platesharee.vercel.app/',
     repoLink: 'https://github.com/Avishek02/plateshare',
-    icon: <IoCarSportSharp className="text-lime-500 animate-pulse" />,
+    icon: "",
     description:
       "𝐏𝐥𝐚𝐭𝐞𝐒𝐡𝐚𝐫𝐞 is a full-stack 𝐌𝐄𝐑𝐍 single-page application focused on reducing food waste through community-driven food sharing.",
-    image: "https://i.ibb.co.com/VcHckbff/Screenshot-2025-12-28-at-5-59-58-PM.png",
-    tech: ["React", "API", "UI", "Node.js", "Cors", "JavaScript", "CSS"],
+    image: "https://res.cloudinary.com/dbanni0vy/image/upload/PlateShare_Featured_Foods_b0ou5y.png",
+    tech: ["React", "API", "Axios", "Node.js", "Cors", "TanStack Query", "Tailwind CSS", "DaisyUI"],
   },
   {
     id: 3,
     title: "Gamehub – ArcadiaX",
     liveLink: 'https://arcadiaxx.netlify.app/',
     repoLink: 'https://github.com/Avishek02/arcadiax',
-    icon: <FaAppStore className="text-purple-500 animate-spin" />,
+    icon: "",
     description:
       "An immersive, futuristic Game Library SPA built with React, Firebase, and Tailwind CSS. ArcadiaX lets gamers discover, rate, and support indie developers through a sleek, vibrant, urban-themed interface.",
-    image: "https://i.ibb.co.com/wrRpbgdG/Screenshot-2025-12-28-at-6-04-13-PM.png",
-    tech: ["React", "Tailwind", "Charts", "Express.js", "HTML5", "React Icon"],
+    image: "https://res.cloudinary.com/dbanni0vy/image/upload/Community_qvlmyj.png",
+    tech: ["React", "Tailwind", "DaisyUI", "SwiperJS", "Framer Motion", "Firebase", "Lucide React"],
   },
 ];
 
